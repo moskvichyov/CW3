@@ -2,7 +2,7 @@ import base64
 import os
 
 BASEDIR = os.path.abspath(os.path.dirname(__file__))
-
+ITEMS_PER_PAGE = 12
 
 class BaseConfig:
     SECRET_KEY = "you-will-never-guess"
